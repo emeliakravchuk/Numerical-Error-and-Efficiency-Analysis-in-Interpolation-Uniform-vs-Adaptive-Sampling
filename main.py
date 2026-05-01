@@ -179,14 +179,14 @@ def main():
         # -----------------------------
 
         # run_adaptive_sampling_interp_tests(2.1, 0, "cubic", "curvature")
-        # run_adaptive_sampling_interp_tests(2.1, 0, "linear", "curvature")
+        run_adaptive_sampling_interp_tests(2.1, 0, "linear", "curvature")
 
         # -----------------------------
         # ADAPTIVE TEST 2.2: Uniform vs adaptive sample-efficiency, burst/modulated sine signal
         # -----------------------------
 
         # run_adaptive_sampling_interp_tests(2.2, 0, "linear", "mag")
-        run_adaptive_sampling_interp_tests(2.2, 1, "linear", "curvature")
+        # run_adaptive_sampling_interp_tests(2.2, 1, "linear", "curvature")
 
         # Final showcase case: curvature-informed adaptive sampling 
         # reduced samples needed to reach the desired tolerance
